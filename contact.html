@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>主页</title>
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/contact.css">
+    <link rel="shortcut icon" type="image/x-icon" href="./images/favicon.ico">
+    <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+</head>
+
+<body>
+    <section class="left">
+        <h1 class="logo">NullPointer's Blog</h1>
+        <div class="ret-home">
+            <a href="index.html">
+                <img class="avatar" src="./images/avatar.jpg" title="返回首页">
+            </a>
+        </div>
+        <div class="intro">
+            <p>
+                Hello🖐guys, I'm NullPointer!😃<br />
+                I'm a salted fish programmer💻 <br />
+                who likes eating🍜 and sleeping.😪<br />
+                At present, I am a junior🙆‍♂️ in <br />
+                Jiangxi Normal University!<br />
+                Learning data science and big data technology.<br />
+                Locate in the🏢NanChang China.
+                I hope to be an excellent programmer in the future.
+            </p>
+        </div>
+        <div class="links">
+            <p>Do you want to contact with me?</p>
+            <ul>
+                <li class="iconfont"><a href="tel:15970085788">&#xe601;</a></li>
+                <li class="iconfont"><a href="mailto:nullpointer_c@126.com">&#xe600;</a></li>
+                <li class="iconfont"><a href="https://github.com/NullPointerC">&#xe8c6;</a></li>
+                <li class="iconfont"><a href="https://www.jxnu.edu.cn">&#xe67a;</a></li>
+            </ul>
+        </div>
+    </section>
+    <section class="right">
+        <nav class="guide-nav">
+            <ul>
+                <li><a class="curr iconfont" href="./index.html">&#xe610;&nbsp;Index</a></li>
+                <li><a class="iconfont" href="./archives.html">&#xe628;&nbsp;Archives</a></li>
+                <li><a class="iconfont" href="./categories.html">&#xe62a;&nbsp;Categories</a></li>
+                <li><a class="iconfont" href="./tags.html">&#xe604;&nbsp;Tags</a></li>
+                <li><a class="iconfont" href="./about.html">&#xe602;&nbsp;About</a></li>
+            </ul>
+        </nav>
+        <div class="search">
+            <span class="search-logo"><a class="iconfont" href="#">&#xe621;</a></span>
+            <span class="rss-logo"><a class="iconfont" href="#">&#xe66c;</a></span>
+            <a href="./contact.html"><img src="./images/avatar-qq.webp" title="联系我"></a>
+        </div>
+        <div class="main-content" action="">
+            <h2 class="main-title">联系我</h2>
+            <div id="vcomments"></div>
+            <script>
+                new Valine({
+                    el: '#vcomments',
+                    appId: 'yNykuJ8zQijQxWvU8J72ubvM-gzGzoHsz',
+                    appKey: 'qH3vHDpVvjjYRmm6GG4UnOYY',
+                    avatar: ''
+                })
+            </script>
+        </div>
+        <div class="footer">
+            <p>班级:19级数据科学与大数据技术1班</p>
+            <p>姓名:曹子强&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;学号:201926205020</p>
+        </div>
+    </section>
+</body>
+
+</html>

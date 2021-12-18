@@ -1,0 +1,30 @@
+.main-content {
+    position: relative;
+    height: auto;
+    width: auto;
+    margin-top: 50px;
+}
+
+.main-content .main-title {
+    color: #5e5e5e;
+    font-size: 26px;
+    text-align: center;
+    padding: 24px;
+    padding-top: 74px;
+    font-weight: normal;
+}
+
+.main-content .container {
+    width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+    box-shadow: 4px 4px 5px 3px #999;
+}
+
+.intro-to-self p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}

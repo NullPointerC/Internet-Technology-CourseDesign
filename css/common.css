@@ -1,0 +1,246 @@
+@font-face {
+    font-family: lucette;
+    src: url(../font/lucette-regularitalic.woff);
+}
+
+@font-face {
+    font-family: redaction;
+    src: url(../font/redaction-italic.woff);
+}
+
+@font-face {
+    font-family: autopia;
+    src: url(../font/autopia-italic.woff);
+}
+
+
+@font-face {
+    font-family: 'iconfont';
+    src: url('../font/iconfont.woff2?t=1639364529338') format('woff2'),
+        url('../font/iconfont.woff?t=1639364529338') format('woff'),
+        url('../font/iconfont.ttf?t=1639364529338') format('truetype');
+}
+
+@keyframes rotation {
+    from {
+        rotate: 0deg;
+    }
+
+    to {
+        rotate: 360deg;
+    }
+}
+
+html {
+    position: relative;
+    overflow-x: hidden;
+}
+
+html::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+html::-webkit-scrollbar-track {
+    background: rgb(239, 239, 239);
+    border-radius: 2px;
+}
+
+html::-webkit-scrollbar-thumb {
+    background: #bfbfbf;
+    border-radius: 10px;
+}
+
+html::-webkit-scrollbar-thumb:hover {
+    background: #888;
+}
+
+html::-webkit-scrollbar-corner {
+    background: #179a16;
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.left {
+    width: 20%;
+    height: 100%;
+    background-size: cover;
+    /* background-color: #f6f6f6; */
+    background-color: rgba(243, 244, 246, 1);
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    border-right: 1px solid #f2f2f2;
+    z-index: 10;
+    /* background-image: url(../images/bg2.jpg); */
+}
+
+
+.left .logo {
+    font-family: "lucette";
+    width: 220px;
+    margin: 0 auto;
+    margin-top: 10px;
+    /* border: 2px solid #000000; */
+    color: #3c3b3b;
+    font-size: 26px;
+}
+
+.left .ret-home {
+    margin: 0 auto;
+    width: 200px;
+}
+
+.left .ret-home a img {
+    margin-top: 20px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.left .avatar:hover {
+    transition: 1s ease-out;
+    transform: rotate(360deg);
+    /* animation: rotation 3s linear infinite; */
+    /* animation: rotation 1s linear infinite; */
+}
+
+.left .intro {
+    margin: 40px 20px;
+}
+
+.left .intro p {
+    /* text-indent: 2em; */
+    font-size: 18px;
+    text-align: justify;
+    font-family: "redaction";
+    color: #000000;
+}
+
+
+.left .links p {
+    font-size: 20px;
+    color: #000000;
+    font-family: "redaction";
+    text-align: center;
+}
+
+.left .links ul li {
+    margin-top: 10px;
+    width: 20%;
+    float: left;
+    font-size: 50px;
+    margin-left: 15px;
+
+}
+
+.left .links ul li a {
+    color: #565654;
+}
+
+.left .links ul li a:hover {
+    color: #4786d6;
+    transition: 1s linear;
+}
+
+.right {
+    width: 80%;
+    float: right;
+}
+
+
+.right .guide-nav {
+    position: fixed;
+    left: 20%;
+    top: 0px;
+    width: 80%;
+    height: 50px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #d9d9d9;
+    z-index: 100;
+    float: left;
+}
+
+.right .guide-nav ul li {
+    float: left;
+    width: 160px;
+    margin: 0 auto;
+    padding-left: 20px;
+}
+
+.guide-nav a {
+    font-family: "autopia";
+    font-size: 20px;
+    color: #5a5a5a;
+    line-height: 50px;
+    text-align: center;
+}
+
+.guide-nav a.curr {
+    padding-bottom: 12px;
+    border-bottom: 3px solid #4786d6;
+}
+
+.guide-nav a:hover {
+    color: #4786d6;
+    font-size: 24px;
+}
+
+.search {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    width: 110px;
+    height: 50px;
+    z-index: 100;
+}
+
+.search .search-logo a {
+    font-size: 20px;
+    line-height: 50px;
+}
+
+
+.rss-logo {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.search a {
+    color: #5a5a5a;
+}
+
+.search .rss-logo a {
+    font-size: 20px;
+    line-height: 50px;
+}
+
+.search a:hover {
+    font-size: 30px;
+    color: #4786d6;
+}
+
+.search img {
+    position: relative;
+    top: 5px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+.footer {
+    width: 100%;
+    margin-top: 50px;
+    padding-left: 200px;
+    background-color: #f2f2f5;
+}
+
+.footer p {
+    font-size: 16px;
+    line-height: 30px;
+}

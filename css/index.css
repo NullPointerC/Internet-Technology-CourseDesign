@@ -1,0 +1,42 @@
+.main-content {
+    position: relative;
+    height: auto;
+    width: auto;
+    margin-top: 50px;
+}
+
+.main-content .post-item {
+    background-color: #ffffff;
+    margin: 30px;
+    padding-top: 30px;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.main-content .post-item .post-title {
+    margin-bottom: 10px;
+}
+
+.post-title a {
+    font-size: 18px;
+    color: #333333;
+    font-weight: 500;
+}
+
+
+.post-title a:hover {
+    text-decoration: underline;
+}
+
+.main-content .post-item {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.main-content .post-item .post-content {
+    margin-bottom: 10px;
+}
+
+
+.main-content .post-item .post-footer span {
+    margin-right: 10px;
+}
