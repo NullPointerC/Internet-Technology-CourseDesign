@@ -51,13 +51,13 @@ html::-webkit-scrollbar-thumb {
     border-radius: 10px;
 }
 
-html::-webkit-scrollbar-thumb:hover {
+/* html::-webkit-scrollbar-thumb:hover {
     background: #888;
 }
 
 html::-webkit-scrollbar-corner {
     background: #179a16;
-}
+} */
 
 .iconfont {
     font-family: "iconfont" !important;
